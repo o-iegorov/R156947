@@ -18,4 +18,3 @@ bin/parser  json:deduplicate -o OutputFile.json
 ```
 
 As source command will use `leads.json` file. The filename may be configured by passing `-i leads.json` option to the command.
-This example will download all matching versions of `vendor/package-name` and `vendor/another-package-name` via composer to `<dir>`.
