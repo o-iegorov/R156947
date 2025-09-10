@@ -1,0 +1,25 @@
+{
+    "name": "oiegorov/r156947",
+    "description": "Coding Challenge",
+    "type": "project",
+    "bin": [
+        "bin/parser"
+    ],
+    "autoload": {
+        "psr-4": {
+            "R156947\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleksandr Iegorov",
+            "email": "oiegorov@adobe.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "ext-json": "*",
+        "symfony/console": "^7.3",
+        "monolog/monolog": "^3.9"
+    }
+}
