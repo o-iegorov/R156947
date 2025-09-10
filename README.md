@@ -18,3 +18,7 @@ bin/parser  json:deduplicate -o OutputFile.json
 ```
 
 As source command will use `leads.json` file. The filename may be configured by passing `-i leads.json` option to the command.
+
+# Logging
+
+Logging is implemented using Monolog library. Logs are stored in `var/logs/application.log` file. 
